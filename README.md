@@ -12,7 +12,7 @@ The pipeline trains and evaluates multiple deep learning models on synthetic dat
 Owlo-test/
 │
 ├── utils/                          # Shared Python modules
-│   ├── models.py                   # All model architectures (7 models)
+│   ├── models.py                   # All model architectures
 │   ├── train_functions.py          # Datasets, losses, training loop, helpers
 │   └── view_volume.py              # Interactive volume viewer
 │
@@ -20,7 +20,7 @@ Owlo-test/
 │   ├── best_unet_resnet18.pth
 │   ├── best_dinov2_seg.pth
 │   ├── best_segformer.pth
-│   ├── best_segformer_ft.pth       # Fine-tuned SegFormer (optional)
+│   ├── best_segformer_ft.pth 
 │   ├── best_unet3d.pth
 │   └── best_segformer3d.pth
 │
